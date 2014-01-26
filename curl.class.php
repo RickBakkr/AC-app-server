@@ -11,7 +11,7 @@ Class cURL {
   * @params string
   * @return bool or string
   */
-  public function get($url) {
+  public static function get($url) {
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -29,7 +29,7 @@ Class cURL {
   * @params string, string
   * @return bool or string
   */
-  public function get($url, $fields) {
+  public static function get($url, $fields) {
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch,CURLOPT_POST, 1);
