@@ -1,8 +1,9 @@
 <?php
-/* Lesrooster.class.php
- * Author: Rick Bakker
- */
- 
+/**
+  * Lesrooster Class
+  *
+  * @author Rick Bakker
+  */
 Class Lesrooster extends Rooster {
 
 }
